@@ -22,6 +22,6 @@ class SocketServerController extends Controller
     }
 
     public function test(){
-        //测试已经改变的master权限保护1
+        //测试已经改变的master权限保护2
     }
 }
