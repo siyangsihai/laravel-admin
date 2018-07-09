@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/test',function (){
     echo 11;
 });
+
+Route::get('/server','SocketServerController@index');
+Route::get('/client','SocketServerController@client');
