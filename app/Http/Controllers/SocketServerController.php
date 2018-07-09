@@ -21,4 +21,7 @@ class SocketServerController extends Controller
         return view('socketServer');
     }
 
+    public function test(){
+        //测试已经改变的master权限保护
+    }
 }
